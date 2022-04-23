@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(img/backgrounZAP.jpg);
+}
+main {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    min-width: 365px;
+}
+div {
+    display: flex;
+    width: 290px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #daf7c1;
+    padding: 20px 18px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px rgb(0 0 0 / 30%);
+}
+
+div:hover {
+    box-shadow: 1px 8px 9px rgb(0 0 0 / 30%);
+    cursor: pointer;
+}
+img {
+    width: 35px;
+    /* margin-left: 80px; */
+}
+div.addMsg {
+    justify-content: center;
+    width: 50px;
+    padding: 20px;
+}
+button {
+    border-radius: 100%;
+    border: none;
+}
