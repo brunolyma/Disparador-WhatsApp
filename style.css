@@ -20,7 +20,7 @@ main {
     flex-wrap: wrap;
     min-width: 365px;
 }
-div {
+div.container {
     display: flex;
     width: 290px;
     align-items: center;
@@ -31,7 +31,7 @@ div {
     box-shadow: 0px 3px 3px rgb(0 0 0 / 30%);
 }
 
-div:hover {
+div.container:hover {
     box-shadow: 1px 8px 9px rgb(0 0 0 / 30%);
     cursor: pointer;
 }
